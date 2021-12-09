@@ -1,0 +1,143 @@
+/* * {
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  display:flex;
+  flex-direction: row;
+  background-color: aqua;
+  padding: 13px;
+}
+.header p {
+  position: relative;
+  padding: 11px 11px;
+  float: right;
+  font-size: 19px;
+  background-color: blue;
+  margin: -34px 13px;
+  cursor: pointer;
+}
+.header p:hover {
+  background-color: #25f4a8;
+  border: 0.5px rgb(238, 225, 88);
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px green;
+  transition-delay: 0.2s;
+  font-family: cursive;
+}
+header h2 {
+  width: 30%;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+} */
+.container2 .leftmenu1 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(85, 243, 79);
+  height: 110vh;
+  width: 178px;
+}
+.container2 .leftmenu1 a,
+button {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  margin: 13px;
+  margin-top: 12px;
+  display: block;
+  top: 10px;
+}
+button {
+  border: none;
+  box-shadow: none;
+  background: none;
+}
+.container2 .leftmenu1 a:hover,
+.dropdown-btn:hover {
+  color: black;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: yellowgreen;
+  padding-left: 10px;
+}
+
+.leftmenu2 {
+  transform: translate(150px, 20px);
+  border: 2px solid red;
+  box-shadow: 9px 7px 10px 2px green;
+  width:75%;
+}
+.leftmenu2 .container3 {
+  padding: 5px 4px;
+  background-color: #c7c7ff;
+  width: 32vmax;
+  font-size: 15px;
+}
+.leftmenu2 .addexam {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 12px 3px;
+  padding: 2px 2px;
+}
+.leftmenu2 .addexamcontent {
+  margin: 3px 5px;
+}
+.leftmenu2 .addexamcontent p {
+  font-size: 21px;
+  margin: 4px 1px;
+}
+/* .leftmenu2 .addexamcontent input[type="text"],
+select {
+  width: 100%;
+  height: 30px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+} */
+
+/* .leftmenu2 .addexamcontent input,
+select {
+  width: 100%;
+  height: 30px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+} */
+
+/* .leftmenu2 .addexamcontent input[type="submit"],
+select {
+  width: 100%;
+  height: 42px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 19px;
+  position: absolute;
+  top: 111%;
+  text-align: center;
+  left: 54px;
+  color: white;
+  background-color: blue;
+  cursor: pointer;
+} */
+/* }
+.leftmenu2 .addexamcontent input[type="submit"]:hover,
+select {
+    background-color: #25f4a8;
+    border: 0.5px rgb(238, 225, 88);
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px green;
+    transition-delay: 0.2s;
+    font-family: cursive;
+} */
+

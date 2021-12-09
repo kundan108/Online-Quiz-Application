@@ -1,0 +1,96 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  /* background: #8b6ee6; */
+  background: white;
+}
+.container1 {
+  background-color: white;
+  width: 50%;
+  height: 455px;
+  position: relative;
+  left: 25%;
+  top: 20px;
+}
+.container1 .image {
+  position: relative;
+  top: 26%;
+  left: 10%;
+}
+.container1 .image img {
+  width: 31%;
+  position: absolute;
+  border-radius: 27px;
+}
+
+.container1 .heading {
+  position: relative;
+  left: 57%;
+  top: 23%;
+}
+
+.container1 .heading h1 {
+  font-size: 25px;
+}
+
+.container1 .input {
+  display: flex;
+  position: relative;
+  left: 52%;
+  top: 29%;
+  flex-direction: column;
+}
+.container1 .input input {
+  width: 35%;
+  margin: 5px;
+  padding: 9px;
+  border-radius: 19px;
+  outline: none;
+  font-size: 16px;
+}
+
+/* .container1 .input .input1{
+    border-radius: 19px;
+} */
+
+.container1 .inputbtn {
+  position: relative;
+  left: 51%;
+  top: 29%;
+  /* line-height: 2; */
+  margin: 11px;
+  padding: 3px;
+}
+.container1 .inputbtn button {
+  width: 39%;
+  height: 35px;
+  border-radius: 18px;
+  font-size: 20px;
+  background: rgb(12, 189, 12);
+  cursor: pointer;
+}
+.resetPass {
+  position: relative;
+  left: 66%;
+  top: 28%;
+}
+.resetPass a {
+  text-decoration: none;
+}
+.input1 {
+  font-family: fontawesome;
+}
+.users{
+  font-family: fontawesome;
+  position: relative;
+  left: 53%;
+  top: 29%;
+}
+option{
+  border-radius: 10px;
+}
+select{
+  border-radius: 10px;
+}

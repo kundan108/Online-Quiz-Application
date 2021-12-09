@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script async src="js/registration.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="css/registration.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+      <!-- <div class="container1-main">
+        <img src="bg.jpg" alt="">
+      </div> -->
+      <div class="container">
+        <div class="container1-main">
+          <img src="img/registration.jpg" alt="">
+        </div>
+        <div class="container2-main">
+          <div class="container1">
+            <h1>Register</h1>
+          </div>
+          <div class="container2">
+            <h2>Manage all Loyality Efficiently</h2>
+            <br />
+            <p>
+              Let's get you all set up to you can verify your personal account and
+              <br />
+              begain setting up your profile
+            </p>
+            <br>
+          </div>
+          <div class="container3-main">
+            <div class="container3">
+              <form action="">
+                <input id="userid" type="text" placeholder="UserId">
+                <input id="username" type="text" class="signup" placeholder="Enter Your Name">
+                <input id="email" type="email" placeholder="Enter your Email">
+                <input id="mob" type="phone" placeholder="Enter  phone Number">
+                <input  id="dob" placeholder="Enter DOB" type="text" onfocus="(this.type='date')" />
+                <input id="password" type="password" placeholder="************">
+                <input id="cpassword" type="password" placeholder="Enter confirm Password">
+                <label for="gender">Gender</label>
+                <select name="" id="gender">
+                  <option value=""></option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="other">Other</option>
+              </select><br>
+              <label for="usertype">User</label>
+              <select name="" id="usertype">
+                <option value=""></option>
+                <option value="teacher">Teacher</option>
+                <option value="student">Student</option>
+                <!-- <option value="admin">admin</option> -->
+            </select><br>
+              </form>
+            </div> 
+                  <br>
+                  <input type="checkbox" id="box1"  value="receive">
+                  <label for="box1"> Yes, I want to receive quiz receive email<br>
+                  <input type="checkbox" id="box1"  value="agree">
+                  <label for="box1"> I agree to all the <span>Term, Privacy </span> and <span>Fees
+                  </span><br>
+              <br>
+              <button id="submit" onclick="registerUser()">Create Account</button>
+          </div>
+          <br>
+          <div class="container4">
+              <h3>Already have an account? <a href="login.html">Log in</a></h3>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+  </html>

@@ -1,0 +1,64 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  margin: 10px;
+  position: relative;
+  /* width: 100%; */
+  /* float: right; */
+  background: navajowhite;
+  padding: 17px 11px;
+  /* top: 66px; */
+  display: flex;
+  flex-direction: row;
+}
+.container2-main {
+  position: relative;
+  left: 65px;
+  top: 78px;
+}
+.container1 h1 {
+  text-align: center;
+  justify-content: center;
+  color: blue;
+  font-size: 36px;
+}
+input {
+  font-size: 17px;
+  padding-left: 12px;
+  border-radius: 10px;
+}
+.container3 input {
+  display: flex;
+  flex-direction: row;
+  margin: 8px;
+}
+span {
+  color: blue;
+}
+
+.container3-main button {
+  color: white;
+  padding: 10px 31px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin: 0px 1px;
+  cursor: pointer;
+  background-color: blue;
+  border-radius: 19px;
+}
+option{
+  border-radius: 10px;
+}
+select{
+  border-radius: 10px;
+}
+
+.container2 .homecontent
+{
+    
+}

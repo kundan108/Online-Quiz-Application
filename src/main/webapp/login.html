@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login page</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script async src="js/login.js"></script>
+    <link rel="stylesheet" href="css/login.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/fontawesome.min.css"
+    />
+    <!-- <style>
+      .container{
+         background-image:  url('bg3.jpg');
+      }
+    </style> -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="container1">
+        <div class="image">
+          <img src="img/login_bg.jpg" alt="" />
+        </div>
+        <div class="heading">
+          <h1>Member Login</h1>
+        </div>
+        <div class="input">
+          <input id="userid" class="input1" type="text" placeholder="&#xf0e0; UserId" />
+          <input
+            id="password"
+            class="input1"
+            type="password"
+            placeholder=" &#xf023; Password"
+          />
+        </div>
+        <div class="users">
+          <label for="users">Select User Type</label>
+              <select id="users">
+                <option value=""></option>
+                <option value="teacher">Teacher</option>
+                <option value="student">Student</option>
+                <option value="admin">Admin</option>
+                </select>
+        </div>
+        <div class="inputbtn">
+          <button id="submit" class="btn" onclick="loginUser()">Login</button>
+        </div>
+        <div class="resetPass">
+          <a href="">Forget Username / Password?</a>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/b026c1c859.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      
+    </script>
+  </body>
+</html>
